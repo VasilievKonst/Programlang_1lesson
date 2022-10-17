@@ -7,7 +7,7 @@ int Numb2 = Convert.ToInt32(Secondnum); // Преобразование стро
 Console.WriteLine("Введите третье число: ");
 String Thirdnum = Console.ReadLine();  // Ввод третьего числа
 int Numb3 = Convert.ToInt32(Thirdnum); // Преобразование строки в число для третьего числа
-int Max = Numb1;
+int Max = Numb1; // присваиваем числу максимальное значение и проверяем это
 if (Numb1 > Max) Max = Numb1;
 if (Numb2 > Max) Max = Numb2;
 if (Numb3 > Max) Max = Numb3;
